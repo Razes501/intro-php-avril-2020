@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+
+    <form method="POST" action="cible.php" enctype="multipart/from-data">
+        <p>
+            <input type="text" name="nom_page" placeholder="Nom de votre page"/><br/>
+            <input type="text" name="titre_page" placeholder="Titre de votre page"/><br/>
+            <textarea name="texte_page" rows="8" cols="45" placeholder="Votre texte"></textarea><br/>
+            <input type="file" name="photo"><br/>
+            <input type="submit" value="Envoyer"/>
+        </p>
+
+    </form>
+    
+</body>
+</html>
